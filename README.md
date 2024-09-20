@@ -57,7 +57,7 @@ oxbuild
 
 Oxbuild will respect `rootDir` and `outDir` settings in your `tsconfig.json`.
 It will look for a `tsconfig.json` file next to the nearest `package.json` file
-by default. If you want to specfiy a different `tsconfig.json` file, you can do
+by default. If you want to specfiy a different `tsconfig.json` file, you can do:
 
 ```sh
 oxbuild --tsconfig path/to/tsconfig.json
